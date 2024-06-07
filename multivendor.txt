@@ -1,0 +1,20 @@
+https://lucide.dev/icons/
+
+charts
+npm install --save chart.js react-chartjs-2
+https://react-chartjs-2.js.org/examples/pie-chart
+
+gradientes 
+
+https://colorkit.co/gradients/
+
+componentes hechos
+
+https://flowbite.com/docs/components/tabs/
+
+npm i faker 
+
+
+genero data falsa en json facilmente en 
+
+https://mockaroo.com/

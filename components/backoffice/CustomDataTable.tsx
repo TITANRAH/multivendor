@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import data from "../../dumi-data/data.json";
+import { useState } from "react";
+import data from "../../data-custom/data.json";
 import { Button } from "../ui/button";
 
 function CustomDataTable() {
@@ -42,7 +42,7 @@ function CustomDataTable() {
 
   return (
     <div className="">
-      <h2 className="text-xl font-bold mb-4">Recent Orders</h2>
+      <h2 className="text-xl font-bold mb-4 mt-4 dark:text-slate-50">Recent Orders</h2>
 
       {/* table */}
 
@@ -126,11 +126,11 @@ function CustomDataTable() {
         >
           <span className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4 md:mb-0 block w-full md:inline md:w-auto">
             Showing{" "}
-            <span className="font-semibold  text-white dark:text-white">
+            <span className="font-semibold text-slate-800  dark:text-white">
               {PAGE_SIZE * currentPage}
             </span>{" "}
             of{" "}
-            <span className="font-semibold text-white dark:text-white">
+            <span className="font-semibold text-slate-800 dark:text-white">
               {data.length}
             </span>
           </span>
@@ -151,14 +151,14 @@ function CustomDataTable() {
                 si son iguales el boton se deshabilita
                 */}
             {Array.from({ length: totalPages }, (_, index) => (
-              <li>
+              <li key={index}>
                 <Button
                   //   si estoy en el indice 0 mas 1 es 1 por loq ue currentPage es 1
                   onClick={() => handlePageChange(index + 1)}
                   disabled={currentPage === index + 1}
                   className={
                     currentPage === index + 1
-                      ? "flex h-10 items-center ml-1 mr-1 justify-center px-3 leading-tight text-white bg-blue-600 border border-blue-300 hover:bg-blue-800 hover:text-white dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                      ? "flex h-10 items-center ml-1 mr-1 justify-center px-3 leading-tight text-white bg-blue-600 border border-blue-300 hover:bg-blue-800 hover:text-white dark:bg-lime-800 dark:border-lime-600 dark:hover:bg-gray-700 dark:hover:text-white"
                       : "flex h-10 items-center ml-1 mr-1 justify-center px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                   }
                 >

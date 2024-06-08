@@ -18,3 +18,28 @@ npm i faker
 genero data falsa en json facilmente en 
 
 https://mockaroo.com/
+
+para darkmode
+
+se trabaja en lacarpta context y se instala esto
+ npm install next-themes
+
+usar shadcn instalar mas que nada y ya
+
+ poner el html principal la clase dark 
+
+ crear carpeta context con el compoennte Provider que sera una especie de layout con children 
+ envuelto por ThemeProvider traido de next-auth previamente instalado 
+
+ ir al layout priuncipal y envolver el children de la app dentro de este ThemeProvider 
+
+ por ultimo crear el componente switch el cual sera un componente que retorne un boton 
+
+ ademas de llamar a useeEffect a useTheme useState para usarlos como e el archivo ThemeSwitchBtn 
+
+ luego poner el boton donde me parezca en este caso en navbar 
+
+ todos los demas compoenntes letras iconos etc se basan en dark: tal color al ugual que las clases 
+ segun la medidia del telefono etc
+
+ eso es todo

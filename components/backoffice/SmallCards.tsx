@@ -1,6 +1,5 @@
-import React from "react";
+import { orderTwo } from "@/data-custom/backoffice/dashboard/data";
 import SmallCard from "./SmallCard";
-import { orderTwo } from "@/dumi-data/backoffice/dashboard/data";
 
 function SmallCards() {
   return (

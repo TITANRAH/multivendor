@@ -1,16 +1,19 @@
 import { Layers } from "lucide-react";
 import React from "react";
+import { OrderStats } from "./LargeCards";
 
 interface Props {
-  period: string;
-  sales: number;
-  color: string;
+  orderStats: OrderStats;
 }
+
 function LargeCard(props: Props) {
-  const { color, period, sales } = props;
+  const {
+    orderStats: { period, sales, color },
+  } = props;
+
   return (
     <div
-      className={`rounded-lg text-white shadow-md p-8  flex items-center flex-col gap-2  ${color}`}
+      className={`rounded-lg shadow-xl text-white p-8  flex items-center flex-col gap-2 ${color}`}
     >
       <Layers />
       <h4>{period}</h4>

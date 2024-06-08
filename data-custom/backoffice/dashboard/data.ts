@@ -1,27 +1,13 @@
 import { CheckCheck, Loader2, RefreshCcw, ShoppingCart } from "lucide-react";
 
-export const orderStats = [
-  {
-    period: "Today Orders",
-    sales: 110000,
-    color: "bg-green-600",
-  },
-  {
-    period: "Yesterday Orders",
-    sales: 12000,
-    color: "bg-blue-600",
-  },
-  {
-    period: "This Month",
-    sales: 300,
-    color: "bg-orange-600",
-  },
-  {
-    period: "All-Time Sales",
-    sales: 500000,
-    color: "bg-purple-600",
-  },
-];
+
+
+export interface OrderTwo {
+  title: string;
+  value: number;
+  iconBg: string
+  icon: ()=> JSX.Element
+}
 
 
 export const orderTwo = [

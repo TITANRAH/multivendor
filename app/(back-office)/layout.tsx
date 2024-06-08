@@ -7,13 +7,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* sidebar */}
 
       <Sidebar />
-      <div className="w-full">
+      <div className="lg:ml-64 ml-0 flex-grow bg-slate-100 min-h-screen">
         {/* HEADER */}
         <Navbar />
         {/* MAIN */}
-        <main className="ml-60 p-8 bg-slate-950 text-slate-50 min-h-screen mt-16">{children}</main>
-      </div>
+        {/* el main contiene todo y esta corrido 60 hacia la derecha con un ml 60 por que el ancho del side bar es 60 */}
       {/* MAIN BODY */}
+        <main className="p-8 bg-slate-100 dark:bg-slate-950 text-slate-50 mt-24">{children}</main>
+    
+      </div>
+
     </div>
   );
 }

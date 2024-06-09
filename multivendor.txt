@@ -43,3 +43,18 @@ usar shadcn instalar mas que nada y ya
  segun la medidia del telefono etc
 
  eso es todo
+
+
+ intalar npm install -D @tailwindcss/forms
+
+ con esto solucione el tema de los pluggin tuve que instlar tipos para node 
+
+ npm i --save-dev @types/node
+
+para formularios :
+
+ npm install react-hook-form
+
+ toast:
+
+  npm i react-hot-toast

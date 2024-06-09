@@ -1,91 +1,93 @@
 import {
   ExternalLink,
-  LayoutGrid,
+  CircleDollarSign,
+  
   Slack,
   Truck,
   User2,
   UserSquare2,
   Users2,
   Warehouse,
+  ShoppingBag,
+  ShoppingBasketIcon,
+  ClipboardMinus,
+  Gem,
+  Store,
+  Hotel,
 } from "lucide-react";
 
 export const sidebarLinks = [
-  
- 
   {
     title: "Customers",
     icon: User2,
-    href: '/dashboard/customers'
-
+    href: "/dashboard/customers",
   },
   {
     title: "Markets",
     icon: Warehouse,
-    href: '/dashboard/markets'
-
+    href: "/dashboard/markets",
   },
   {
     title: "Farmers",
     icon: UserSquare2,
-    href: '/dashboard/farmers'
-
+    href: "/dashboard/farmers",
   },
   {
     title: "Orders",
     icon: Truck,
-    href: '/dashboard/cupons'
-
+    href: "/dashboard/orders",
   },
   {
-    title: "Staff",
+    title: "Our Staff",
     icon: Users2,
-    href: '/dashboard/staff'
-
+    href: "/dashboard/staff",
   },
   {
     title: "Settings",
     icon: User2,
-    href: '/dashboard'
-
+    href: "/dashboard/settings",
+  },
+  {
+    title: "Wallet",
+    icon: CircleDollarSign,
+    href: "/dashboard/wallet",
+  },
+  {
+    title: "Community",
+    icon: Hotel,
+    href: "/dashboard/community",
   },
   {
     title: "Online Stores",
     icon: ExternalLink,
-    href: '/dashboard/markets'
-
+    href: "/dashboard/online-stores",
   },
 ];
 
-
-
 export const catalogueLinks = [
-  
- 
-    {
-      title: "Products",
-      href: '/dashboard/products'
-  
-    },
-    {
-      title: "Categories",
-      href: '/dashboard/categories'
-  
-    },
-    {
-      title: "Attributes",
-      href: '/dashboard/attributes'
-  
-    },
-    {
-      title: "Coupons",
-      href: '/dashboard/cupons'
-  
-    },
-    {
-      title: "Store Sliders",
-      href: '/dashboard/sliders'
-  
-    },
-  
-  ];
-  
+  {
+    title: "Products",
+    href: "/dashboard/products",
+    icon: ShoppingBag,
+  },
+  {
+    title: "Categories",
+    href: "/dashboard/categories",
+    icon: ShoppingBasketIcon,
+  },
+  {
+    title: "Attributes",
+    href: "/dashboard/attributes",
+    icon: ClipboardMinus,
+  },
+  {
+    title: "Coupons",
+    href: "/dashboard/cupons",
+    icon: Gem,
+  },
+  {
+    title: "Store Sliders",
+    href: "/dashboard/sliders",
+    icon: Store,
+  },
+];

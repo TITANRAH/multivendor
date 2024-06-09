@@ -41,7 +41,7 @@ function CustomDataTable() {
   }
 
   return (
-    <div className="">
+    <div className="max-w-sm  lg:max-w-none sm:max-w-none xl:max-w-none ">
       <h2 className="text-xl font-bold mb-4 mt-4 dark:text-slate-50">Recent Orders</h2>
 
       {/* table */}

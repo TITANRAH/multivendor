@@ -17,7 +17,7 @@ function DashboardPage() {
 
       <DashboardCharts/>
       {/* recent orders table */}
-      <CustomDataTable/>
+      {/* <CustomDataTable/> */}
 
     </div>
   );

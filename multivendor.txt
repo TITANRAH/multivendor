@@ -58,3 +58,10 @@ para formularios :
  toast:
 
   npm i react-hot-toast
+
+
+
+  https://desishub.notion.site/LIMI-ECOMMERCE-cd56bdca27a94fc1af6d9da1374ecb86
+
+
+  uploadThing min 3:07 https://www.youtube.com/watch?v=XyCEIHTyDiU

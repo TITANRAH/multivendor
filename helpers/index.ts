@@ -9,3 +9,4 @@ export function generateSlug(title: any) {
   
     return slug;
   }
+

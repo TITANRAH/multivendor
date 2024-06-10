@@ -7,6 +7,7 @@ export const categorySchema = z.object({
   categoryDescription: z.string().min(3, {
     message: "Este campo es obligatorio",
   }),
-  slug: z.string().nullable()
+  slug: z.string().nullable(),
+  imageUrl: z.string().nullable(),
 
 });

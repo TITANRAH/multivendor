@@ -65,3 +65,13 @@ para formularios :
 
 
   uploadThing min 3:07 https://www.youtube.com/watch?v=XyCEIHTyDiU
+
+  lo que hice fue crearme una cuenta en uploadThing con la cuenta de github 
+  puse las variables de entorno actuales 
+  cree el archivo en lib de uploadthing.ts en donde finalmente exporto los botones para 
+  subida de archivos 
+  tambien debia crear un archivo uploadthing en api una carpeta que contuviera un archivo core.ts 
+  y un route.ts finalmente cree un componente imagen en donde uso ademas usestate para mostarr la imagen cargada 
+  y guardada en el sitio en el cual quede logueado con la cuenta de github https://uploadthing.com/
+
+  muy facil y entretenido
